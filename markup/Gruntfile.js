@@ -32,7 +32,7 @@ module.exports = function(grunt) {
             styles_path: "css/styles.css"
           },
         },
-        src: "dev/layouts/*.html",
+        src: "dev/pages/*.html",
         dest: 'dev/'
       },
       release: {
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
             styles_path: "css/styles.min.css"
           },
         },
-        src: "dev/layouts/*.html",
+        src: "dev/pages/*.html",
         dest: 'prod/'
       }
     },
@@ -74,7 +74,7 @@ module.exports = function(grunt) {
         }
       },
       html: {
-        files: ["dev/html/*.html","dev/layouts/*.html"],
+        files: ["dev/html_blocks/*.html","dev/pages/*.html"],
         tasks: ['includereplace:build'],
         options: {
           spawn: false,
@@ -103,9 +103,9 @@ module.exports = function(grunt) {
     copy: {
       images: {
          expand: true,
-         cwd: "dev/images/",
+         cwd: "dev/img/",
          src: ["**"],
-         dest: 'prod/images/'
+         dest: 'prod/img/'
       },
       scriptLibs: {
          expand: true,
