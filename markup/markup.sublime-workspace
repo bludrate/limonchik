@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"desc",
+				"descriptionList"
+			],
+			[
+				"int",
+				"initElems"
+			],
+			[
+				"init",
+				"initElems"
+			],
+			[
 				"liv",
 				"LIVERELOAD_PORT"
 			],
@@ -34,10 +46,6 @@
 			[
 				"bg",
 				"bg	background"
-			],
-			[
-				"init",
-				"initMenuForTouch"
 			],
 			[
 				"max",
@@ -108,6 +116,47 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/work/limonchik/markup/dev/stylus/ui.styl",
+		"/D/Dropbox/work/limonchik/markup/dev/stylus/styles.styl",
+		"/D/Dropbox/work/limonchik/markup/dev/stylus/contacts.styl",
+		"/D/Dropbox/work/limonchik/markup/dev/pages/contacts.html",
+		"/D/Dropbox/work/limonchik/markup/dev/html_blocks/contacts.html",
+		"/D/Dropbox/work/limonchik/markup/dev/stylus/footer.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/normalize.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/mixin.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/variables.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/size_classes.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/index_page.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/footer.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/styles.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/header.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/ui.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/promo.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/content.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/works.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/main.styl",
+		"/E/Dropbox/work/limonchik/markup/Gruntfile.js",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/footer.html",
+		"/E/Dropbox/work/limonchik/markup/dev/dev_js/ui&main.js",
+		"/E/Dropbox/work/limonchik/markup/dev/dev_js/index&main.js",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/main.html",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/header_main.html",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/header.html",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/works.html",
+		"/E/Dropbox/work/limonchik/markup/dev/css/styles.css",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/promo-page.html",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/directions.html",
+		"/E/Dropbox/work/limonchik/markup/dev/pages/directions.html",
+		"/E/Dropbox/work/limonchik/markup/dev/pages/index.html",
+		"/E/Dropbox/work/limonchik/markup/dev/pages/promo-page.html",
+		"/E/Dropbox/work/limonchik/markup/dev/pages/works.html",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/",
+		"/E/Dropbox/work/limonchik/markup/dev/js/main.js",
+		"/E/Dropbox/work/limonchik/markup/dev/dev_js/script&main.js",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/bottom.html",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/index-page.styl",
+		"/E/Dropbox/work/limonchik/markup/package.json",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/head.html",
 		"/E/Dropbox/Работа/BANG/markup/Gruntfile.js",
 		"/E/Dropbox/Работа/BANG/.git/info/exclude",
 		"/E/Dropbox/Работа/BANG/markup/dev/stylus/main.styl",
@@ -194,40 +243,7 @@
 		"/Z/home/tires.ru/www/templates/start.php",
 		"/Z/home/tires.ru/www/templates/variables.php",
 		"/Z/home/tires.ru/www/templates/head.php",
-		"/C/Users/Алексей/Downloads/Свительскому/style.css",
-		"/C/Users/Алексей/Downloads/Свительскому/index.html",
-		"/D/Лёха/дельта клиент банк/USER0072701/transport.cer",
-		"/D/Лёха/дельта клиент банк/USER0072701/user0072701.cer",
-		"/D/Лёха/дельта клиент банк/USER0072701/user0072701.cer2",
-		"/D/Лёха/дельта клиент банк/USER0072701/user0072701.key",
-		"/D/Лёха/дельта клиент банк/USER0072701/user0072701.key2",
-		"/D/Лёха/дельта клиент банк/USER0072701/ca.cer",
-		"/E/kalesa db/kalesa_mysql_ukraine_com_ua.sql",
-		"/Z/home/tires.ru/www/templates/about.php",
-		"/Z/home/tires.ru/www/templates/contacts.php",
-		"/Z/home/tires.ru/www/about/index.php",
-		"/E/denwer/home/tires.ru/www/templates/footer.php",
-		"/Z/home/tires.ru/www/htaccess",
-		"/Z/home/angular/www/nekit/index.html",
-		"/Z/home/angular/www/nekit/txt.txt",
-		"/Z/home/tires.ru/www/hta",
-		"/C/Users/Алексей/Downloads/txt.xml",
-		"/Z/home/tires.ru/www/admin/templates/upload_image_brend.php",
-		"/Z/home/tires.ru/www/admin/templates/upload_image_news.php",
-		"/Z/home/tires.ru/www/admin/templates/upload_image_rasparovka.php",
-		"/Z/home/tires.ru/www/admin/templates/upload_image.php",
-		"/Z/home/tires.ru/www/js/jquery.client.js",
-		"/Z/home/tires.ru/www/contacts/index.php",
-		"/Z/home/tires.ru/www/admin/templates/edit_products.php",
-		"/Z/home/tires.ru/www/admin/templates/products_table_head.php",
-		"/Z/home/oleksii-pronyakin/www/js/main.js",
-		"/Z/home/oleksii-pronyakin/www/index.html",
-		"/Z/home/oleksii-pronyakin/www/costs.html",
-		"/Z/home/oleksii-pronyakin/www/css/style.css",
-		"/Z/home/oleksii-pronyakin/www/css/style.styl",
-		"/E/my_workplace/Sublime Text Build 3047 x64/Data/Packages/User/lre.sublime-snippet",
-		"/E/my_workplace/Sublime Text Build 3047 x64/Data/Packages/User/script-src.sublime-snippet",
-		"/C/Users/Алексей/node_modules/nib/lib/nodes/gradient.js"
+		"/C/Users/Алексей/Downloads/Свительскому/style.css"
 	],
 	"find":
 	{
@@ -235,9 +251,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 392.0,
 		"where_history":
 		[
+			"D:\\Work\\ctco-dcat\\dc\\trunk",
 			""
 		]
 	},
@@ -246,6 +263,37 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".fr.ie8 .mood-page_winter-car-storage",
+			"Hockey with the Choi Family For Eddie Choi, hockey means everything. He’s passed down his love of the game to his kids. Watch their story.",
+			"\"title\":\"some\"",
+			"255",
+			"236px",
+			"336px",
+			"8px",
+			"span",
+			"section",
+			"title",
+			"bottom-n",
+			"0",
+			"bg3",
+			"$this.index()",
+			"$(this)",
+			"jsFiles",
+			"Витражи «Тиффани»",
+			"402b27",
+			" target=\"\"",
+			"href",
+			"<area",
+			"alt=\"\" title=\"\"",
+			"livere",
+			"livereload",
+			"bg1",
+			"watch",
+			"stylus",
+			"li",
+			"ul",
+			"	     		",
+			"main-nav__descriptions",
 			"clean",
 			"ugli",
 			"clean",
@@ -342,38 +390,7 @@
 			" class='bg'",
 			"transition",
 			"дюймовые",
-			"checkbox",
-			"[0-9]",
-			"$",
-			"letnie_shini",
-			"7",
-			"R13",
-			"7",
-			"R13",
-			"7",
-			"R13",
-			"7",
-			"R13",
-			"R18",
-			"7",
-			"R13",
-			"7",
-			"R13",
-			"7",
-			"R13",
-			"7",
-			"R13",
-			"7",
-			"R13",
-			"C_categoriya/",
-			"c_categoriya",
-			"/rasparovka/index.php?radius=",
-			"/products/index.php?radius_id=",
-			"R14",
-			",",
-			"protection",
-			"text",
-			"type[]"
+			"checkbox"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -381,10 +398,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"title\":\"LemonChick\"",
 			"<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>",
 			"Олимпийский"
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -405,7 +423,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 40.0
 	},
 	"input":
 	{

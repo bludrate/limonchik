@@ -1,0 +1,26 @@
+.footer {
+	position: relative;
+	background: #faf9f9;
+	height: 38px;
+	line-height: 38px;
+	padding: 3px 0 0;
+	font-size: 12px;
+	&:after {
+		position: absolute;
+		top: 0;
+		height: 3px;
+		left: 0;
+		right: 0;
+		content: '';
+		{$lineGradient};
+	}
+	&__contacts,
+	&__copyrights {
+		font-weight: normal;
+		float: right;
+		margin: 0 15px;
+	}
+	&__copyrights {
+		float: left;
+	}
+}

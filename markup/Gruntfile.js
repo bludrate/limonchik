@@ -2,7 +2,7 @@ var htmlFilesForRelease = {
        'prod/index.html': 'prod/index.html'
     },
     jsFiles = {
-       'dev/js/main.js':"dev/dev_js/*&main.js"
+       'dev/js/main.js':["dev/dev_js/ui&main.js","dev/dev_js/*&main.js"]
     },
     jsFilesForRelease = {
       'prod/js/script.min.js': ['dev/js/main.js']
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
     stylus: {
       compile: {
         files: {
-          "dev/css/styles.css" : ["dev/stylus/normalize.styl","dev/stylus/*.styl" ]
+          "dev/css/styles.css" : ["dev/stylus/styles.styl" ]
         },
         options: {
           compress:false
@@ -46,27 +46,27 @@ module.exports = function(grunt) {
         options: {
           prefix: '@@',
           suffix: '',
-          cwd: true,
           globals: {
             script_path: "js/main.js",
             styles_path: "css/styles.css"
           },
         },
-        src: "dev/pages/*.html",
-        dest: 'dev/',
+        files: [
+          {src: "*.html", dest:"dev/", expand: true, cwd: "dev/pages/"}
+        ]
       },
       release: {
          options: {
           prefix: '@@',
           suffix: '',
-          cwd: true,
           globals: {
             script_path: "js/main.min.js",
             styles_path: "css/styles.min.css",
           },
         },
-        src: "dev/pages/*.html",
-        dest: 'prod/'
+        files: [
+          {src: "*.html", dest:"prod/", expand: true, cwd: "dev/pages/"}
+        ]
       }
     },
     htmlmin: {                                     
@@ -84,16 +84,8 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      livereload:{
-        options: {
-          livereload: LIVERELOAD_PORT
-        },
-        files: [
-          "dev/css/*.css",
-          "dev/img/**",
-          "dev/temp/**",
-          "dev/js/*.js"
-        ]
+      options: {
+        livereload: LIVERELOAD_PORT
       },
       stylus: {
         files: ["dev/stylus/*.styl" ],
@@ -136,6 +128,17 @@ module.exports = function(grunt) {
          files: jsFiles
       }
     },
+    autoprefixer: {
+      options: {
+        browsers: ['last 3 version', 'ie 8', 'ie 9']
+      },
+      css: {
+        expand: true,
+        flatten: true,
+        src: 'dev/css/*.css',
+        dest: 'dev/css/'
+      }
+    },
     copy: {
       images: {
          expand: true,
@@ -162,6 +165,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-stylus');
@@ -169,7 +173,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-clean');
 
-  grunt.registerTask('build', ['stylus',"includereplace:build","concat"]);
+  grunt.registerTask('build', ['stylus',"autoprefixer","includereplace:build","concat"]);
   grunt.registerTask('release', ["clean:release","includereplace:release","cssmin", "uglify"/*,"htmlmin"*/,"copy"]);
   grunt.registerTask('default', ['connect','watch']);
 };

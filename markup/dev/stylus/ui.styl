@@ -1,0 +1,131 @@
+.btn {
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.8);
+	background: #b99b8e;
+	background:linear-gradient(to bottom, #ac9891, #7d5d50);
+	border: 1px solid #9c7a6c; 
+	box-shadow: 0 1px 0 rgba(0,0,0,0.8),0 1px 0 rgba(255,255,255,0.6) inset;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 12px;
+	border-radius: 6px;
+	line-height: 30px;
+	height: 30px;
+	&:hover {
+		opacity: 0.9;
+	}
+	&:active {
+		opacity: 1;
+		background:linear-gradient(to bottom, #9b857d, #694c40);
+		border-bottom:none;
+		padding-bottom: 1px;
+		box-shadow: 0 1px 0 rgba(0,0,0,0.8),0 1px 1px rgba(0,0,0,0.4) inset;
+		color: #eee;
+	}
+	input {
+		position: absolute;
+		background: none;
+		border: none;
+		font-size: 0;
+		height: 400px;
+		left: 0;
+		right: 0;
+		top: 0;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		cursor: pointer;
+	}
+}
+.yellow-btn {
+	color: $textColor;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.35);
+	background: #b99b8e;
+	background:linear-gradient(to bottom, #ffff00, #ffd900);
+	border: 1px solid #e0d407; 
+	box-shadow:0 1px 0 #b59e00;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 12px;
+	border-radius: 6px;
+	line-height: 30px;
+	height: 30px;
+	&:hover {
+		opacity: 0.85;
+	}
+	&:active {
+		opacity: 1;
+		background:linear-gradient(to bottom, #dbdb03, #e7c504);
+		padding-bottom: 1px;
+		border-bottom:none;
+	}
+	input {
+		position: absolute;
+		background: none;
+		border: none;
+		font-size: 0;
+		height: 400px;
+		left: 0;
+		right: 0;
+		top: 0;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		cursor: pointer;
+	}
+}
+input[type="text"]{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 5px 0 10px;
+	border:0;
+	margin: 0;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	color: $darkColor;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.75) inset;
+}
+textarea {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 8px 5px 7px 10px;
+	border:0;
+	margin: 0;
+	resize: none;
+	display: block;
+	height: 120px;
+	line-height: 16px;
+	color: $darkColor;
+	border-radius: 5px;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.75) inset;
+}
+label {
+	margin: 0 0 6px;
+	display: block;
+}
+.form-row {
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+	margin: 0 0 13px;
+}
+.imp-red {
+	color: #c92000;
+	font-style: normal;
+}
+.form-btn-holder {
+	text-align: center;
+}

@@ -1,0 +1,131 @@
+.lemon-nav {
+	display: table-row;
+	height: 67%;
+	.l-wrapper {
+		position: relative;
+	}
+	&__holder {
+		padding: 60px 0;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+.nav-descriptions {
+	list-style:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+	left: 25px;
+	top: 37px;
+	width: 240px;
+	line-height: 20px;
+	text-align: center;
+	&_right {
+		right: 25px;
+		left: auto;
+	}
+	&__item {
+		padding: 8px 0;
+		display: none;
+		background: rgba(255,255,255,0.2);
+		border-radius: 10px;
+		border:2px dotted;
+		&_active {
+			display: block;
+		}
+	}
+	&__title {
+		font-size: 16px;
+		margin: 0 0 9px;
+		a {
+			color: $textColor;
+		}
+	}
+	&__text {
+		max-height: 300px;
+		overflow: auto;
+		padding: 0 12px;
+	}
+}
+.nav-hints {
+	list-style:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+	color: #000;
+	font-size: 16px;
+	white-space: nowrap;
+	font-weight: bold;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	&__item {
+		position: absolute;
+		margin: -128px 0 0 121px;
+		border-bottom: 2px dotted #614f4c;
+		padding: 0 0 3px;
+		display: none;
+		&:after {
+			bg("pointer-line.png");
+			content: '';
+			width: 128px;
+			height: 113px;
+			margin-top: 1px;
+			position: absolute;
+			top: 100%;
+			left: -128px;
+		}
+		&_active {
+			display: block;
+		}
+		&_group2 {
+			margin: 84px 0 0 121px;
+			&:after {
+				bottom: 0;
+				top: auto;
+				background-image: url($pathToImg + "/" + "pointer-line2.png");
+			}
+		}
+		&_group3 {
+			margin: 84px 120px 0 0;
+			&:after {
+				bottom: 0;
+				top: auto;
+				left: auto;
+				right: -128px;
+				background-image: url($pathToImg + "/" + "pointer-line3.png");
+			}
+		}
+		&_group4 {
+			margin: -128px 120px 0 0;
+			&:after {
+				left: auto;
+				right: -128px;
+				background-image: url($pathToImg + "/" + "pointer-line4.png");
+			}
+		}
+	}
+	&__item_group2 &__text {
+		margin-left: 0;
+	}
+	&__item_group3 &__text {
+		margin-right: 0;
+	}
+	&__text {
+		margin: 0 -7px;
+	}
+}
+.lemon {
+	text-align: center;
+	&__holder {
+		display: inline-block;
+		position: relative;
+	}
+	&__map-img {
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 10;
+	}
+}

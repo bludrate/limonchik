@@ -1,15 +1,3 @@
-var ui = {};
-
-ui.initElems = [];
-ui.init = function(){
-	var i;
-	for (i=0; i<this.initElems.length; i++){
-		this[this.initElems[i]]();
-	}
-};
-$(function () {
-	ui.init();
-});
 ui.initIndexPage = function () {
 	var lemonNav = $('#lemon-nav'),
 		hintItems = lemonNav.find('.nav-hints__item'),

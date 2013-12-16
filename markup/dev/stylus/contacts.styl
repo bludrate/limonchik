@@ -1,0 +1,124 @@
+.socials {
+	padding: 0 0 20px;
+	&__text {
+		display: inline-block;
+		vertical-align: middle;
+		width: 241px;
+		margin: 0 12px 0 0;
+		text-align: right;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	&__list {
+		padding: 15px 0 0 32px;
+		margin: 0;
+		list-style: none;
+		display: inline-block;
+		vertical-align: middle;
+		width:334px;
+		height: 75px;
+		bg("social-frame.png");
+	}
+	&__ico {
+		display: block;
+		margin: 0 0 -3px;
+		padding: 0 0 0 1px;
+	}
+	&__name{
+		display: block;
+	}
+	&__item {
+		float: left;
+		text-align: center;
+		width: 80px;
+		a {
+			font-size: 12px;
+			line-height: 14px;
+			color: $darkColor;
+			font-weight: bold;
+		}
+	}
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+.feedback {
+	float: left;
+	width: 307px;
+	padding: 20px 28px 22px;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.75);
+	position: relative;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 100px 0 52px;
+	&:after {
+		content: '';
+		position: absolute;
+		left: 11px;
+		top: 11px;
+		bottom: 11px;
+		right: 11px;
+		border: 2px dotted #63524e;
+		border-radius: 6px;
+	}
+	> * {
+		position: relative;
+		z-index: 5;
+	}
+	&__title {
+		text-align: center;
+		display: block;
+		margin: 0 0 17px;
+		text-decoration: underline;
+		font-size: 18px;
+		line-height: 20px;
+		font-weight: bold;
+	}
+	.btn {
+		height: 33px;
+		line-height: 33px;
+	}
+}
+.contacts {
+	padding: 13px 0 80px;
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+	&__info {
+		overflow: hidden;
+		font-size: 20px;
+		line-height: 39px;
+		padding: 19px 0 0 12px;
+		font-weight: bold;
+	}
+	&__dl {
+		margin: 0 0 42px;
+		padding: 0;
+		dt {
+			float: left;
+			margin:0 4px 0 0;
+		}
+		dd {
+			overflow: hidden;
+		}
+	}
+}
+.phone {
+	padding: 4px 0 0 80px;
+	bg("phone-ico.png");
+	min-height: 67px;
+	margin: 0 0 0 -4px;
+	&__number {
+		font-size: 40px;
+		margin: 0 0 -9px;
+	}
+	&__time {
+		font-size: 14px;
+	}
+}
