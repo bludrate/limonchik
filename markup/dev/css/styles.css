@@ -119,6 +119,12 @@ h2 {
 .gallery__next:hover {
   background-color: rgba(255,255,255,0.7);
 }
+.gallery__prev.disabled,
+.gallery__next.disabled {
+  opacity: 0.3;
+  cursor: default;
+  background: none;
+}
 .gallery__next {
   right: 36px;
   left: auto;
@@ -183,6 +189,7 @@ h2 {
 }
 .gallery__switchers-item a {
   display: block;
+  cursor: pointer;
   text-indent: -9999px;
   overflow: hidden;
   width: 13px;
@@ -205,11 +212,11 @@ h2 {
 .gallery__switchers-item a:hover {
   opacity: 0.9;
 }
-.gallery__switchers-item_active a {
+.gallery__switchers-item.active a {
   box-shadow: 0 1px 0 rgba(0,0,0,0.7) inset;
   background: #8d6e61;
 }
-.gallery__switchers-item_active a:after {
+.gallery__switchers-item.active a:after {
   border-color: transparent;
 }
 .person {

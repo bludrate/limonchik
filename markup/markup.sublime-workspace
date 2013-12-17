@@ -116,46 +116,51 @@
 	},
 	"file_history":
 	[
-		"/D/Dropbox/work/limonchik/markup/dev/stylus/ui.styl",
-		"/D/Dropbox/work/limonchik/markup/dev/stylus/styles.styl",
-		"/D/Dropbox/work/limonchik/markup/dev/stylus/contacts.styl",
-		"/D/Dropbox/work/limonchik/markup/dev/pages/contacts.html",
-		"/D/Dropbox/work/limonchik/markup/dev/html_blocks/contacts.html",
-		"/D/Dropbox/work/limonchik/markup/dev/stylus/footer.styl",
-		"/E/Dropbox/work/limonchik/markup/dev/stylus/normalize.styl",
-		"/E/Dropbox/work/limonchik/markup/dev/stylus/mixin.styl",
-		"/E/Dropbox/work/limonchik/markup/dev/stylus/variables.styl",
-		"/E/Dropbox/work/limonchik/markup/dev/stylus/size_classes.styl",
-		"/E/Dropbox/work/limonchik/markup/dev/stylus/index_page.styl",
 		"/E/Dropbox/work/limonchik/markup/dev/stylus/footer.styl",
-		"/E/Dropbox/work/limonchik/markup/dev/stylus/styles.styl",
 		"/E/Dropbox/work/limonchik/markup/dev/stylus/header.styl",
 		"/E/Dropbox/work/limonchik/markup/dev/stylus/ui.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/contacts.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/main.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/contacts.html",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/gallery.html",
+		"/C/Users/Алексей/Downloads/olimp_mobile_28.11.2013/js/jquery.main.js",
+		"/E/Dropbox/work/limonchik/markup/dev/dev_js/script&main.js",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/main.html",
+		"/E/Dropbox/work/limonchik/markup/dev/dev_js/ui&main.js",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/directions.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/variables.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/promo-page.html",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/styles.styl",
 		"/E/Dropbox/work/limonchik/markup/dev/stylus/promo.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/pages/contacts.html",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/directions.html",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/script-lists/contacts.html",
+		"/E/Dropbox/work/limonchik/markup/package.json",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/bottom.html",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/script-lists/index.html",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/script-lists/promo-page.html",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/script-lists/directions.html",
+		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/script-lists/works.html",
+		"/E/Dropbox/work/limonchik/markup/dev/pages/works.html",
+		"/E/Dropbox/work/limonchik/markup/dev/pages/directions.html",
+		"/E/Dropbox/work/limonchik/markup/dev/pages/promo-page.html",
+		"/E/Dropbox/work/limonchik/markup/dev/pages/index.html",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/normalize.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/mixin.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/size_classes.styl",
+		"/E/Dropbox/work/limonchik/markup/dev/stylus/index_page.styl",
 		"/E/Dropbox/work/limonchik/markup/dev/stylus/content.styl",
 		"/E/Dropbox/work/limonchik/markup/dev/stylus/works.styl",
-		"/E/Dropbox/work/limonchik/markup/dev/stylus/main.styl",
 		"/E/Dropbox/work/limonchik/markup/Gruntfile.js",
 		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/footer.html",
-		"/E/Dropbox/work/limonchik/markup/dev/dev_js/ui&main.js",
 		"/E/Dropbox/work/limonchik/markup/dev/dev_js/index&main.js",
-		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/main.html",
 		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/header_main.html",
 		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/header.html",
 		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/works.html",
 		"/E/Dropbox/work/limonchik/markup/dev/css/styles.css",
-		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/promo-page.html",
-		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/directions.html",
-		"/E/Dropbox/work/limonchik/markup/dev/pages/directions.html",
-		"/E/Dropbox/work/limonchik/markup/dev/pages/index.html",
-		"/E/Dropbox/work/limonchik/markup/dev/pages/promo-page.html",
-		"/E/Dropbox/work/limonchik/markup/dev/pages/works.html",
 		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/",
 		"/E/Dropbox/work/limonchik/markup/dev/js/main.js",
-		"/E/Dropbox/work/limonchik/markup/dev/dev_js/script&main.js",
-		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/bottom.html",
 		"/E/Dropbox/work/limonchik/markup/dev/stylus/index-page.styl",
-		"/E/Dropbox/work/limonchik/markup/package.json",
 		"/E/Dropbox/work/limonchik/markup/dev/html_blocks/head.html",
 		"/E/Dropbox/Работа/BANG/markup/Gruntfile.js",
 		"/E/Dropbox/Работа/BANG/.git/info/exclude",
@@ -238,12 +243,7 @@
 		"/Z/home/tires.ru/www/admin/products/index.php",
 		"/Z/home/tires.ru/www/templates/header.php",
 		"/Z/home/tires.ru/www/products/index.php",
-		"/Z/home/tires.ru/www/admin/templates/start.php",
-		"/Z/home/tires.ru/www/admin/templates/footer.php",
-		"/Z/home/tires.ru/www/templates/start.php",
-		"/Z/home/tires.ru/www/templates/variables.php",
-		"/Z/home/tires.ru/www/templates/head.php",
-		"/C/Users/Алексей/Downloads/Свительскому/style.css"
+		"/Z/home/tires.ru/www/admin/templates/start.php"
 	],
 	"find":
 	{
@@ -251,10 +251,9 @@
 	},
 	"find_in_files":
 	{
-		"height": 392.0,
+		"height": 90.0,
 		"where_history":
 		[
-			"D:\\Work\\ctco-dcat\\dc\\trunk",
 			""
 		]
 	},
@@ -263,8 +262,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			".fr.ie8 .mood-page_winter-car-storage",
-			"Hockey with the Choi Family For Eddie Choi, hockey means everything. He’s passed down his love of the game to his kids. Watch their story.",
+			"initGallerys",
 			"\"title\":\"some\"",
 			"255",
 			"236px",
@@ -390,7 +388,8 @@
 			" class='bg'",
 			"transition",
 			"дюймовые",
-			"checkbox"
+			"checkbox",
+			"[0-9]"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -402,7 +401,7 @@
 			"<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>",
 			"Олимпийский"
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -423,7 +422,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 40.0
+		"height": 23.0
 	},
 	"input":
 	{
