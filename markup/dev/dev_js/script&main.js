@@ -16,7 +16,7 @@ ui.initGallery = function () {
 	            touchDragging: 1,
 	            releaseSwing: 1,
 	            swingSpeed: 0.2,
-	            speed: 150,
+	            speed: 300,
 	            elasticBounds: 0,
 	            easing: "swing",
 	            prevPage: $this.find('.gallery__prev'),

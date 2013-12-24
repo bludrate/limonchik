@@ -26,6 +26,19 @@
 		box-shadow: 0 1px 0 rgba(0,0,0,0.8),0 1px 1px rgba(0,0,0,0.4) inset;
 		color: #eee;
 	}
+	&.disabled {
+		opacity: 0.4;
+		background: #b99b8e;
+		background:linear-gradient(to bottom, #ac9891, #7d5d50);
+		box-shadow: 0 1px 0 rgba(0,0,0,0.8),0 1px 0 rgba(255,255,255,0.6) inset;
+		padding-bottom: 0;
+		border: 1px solid #9c7a6c;
+		color: #fff;
+		cursor: not-allowed;
+		input {
+			cursor: not-allowed;
+		}
+	}
 	input {
 		position: absolute;
 		background: none;
@@ -110,6 +123,9 @@ textarea {
 	position: relative;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.75) inset;
 }
+.field-error {
+	box-shadow: 0 0 4px red inset !important;
+}
 label {
 	margin: 0 0 6px;
 	display: block;
@@ -128,4 +144,21 @@ label {
 }
 .form-btn-holder {
 	text-align: center;
+}
+.lemon-btn {
+	padding: 18px 20px 0;
+	text-align: center;
+	width: 63px;
+	height: 59px;
+	bg("lemon-btn.png");
+	display: inline-block;
+	vertical-align: top;
+	line-height: 18px;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+	color: $textColor;
+	&:hover {
+		opacity: 0.9;
+	}
 }

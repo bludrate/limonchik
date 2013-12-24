@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="bg5">
+<head>
+	<meta charset=utf-8 />
+	<title>LemonChick</title>
+	<link rel="stylesheet" href="/css/styles.min.css"/>
+</head>
+<body>
+<header class="l-block">
+	<div class="header">
+		<div class="l-wrapper header__wrapper">
+			<h1 class="small-logo"><a href="/"><img src="/img/small-logo.png" alt="LemonChik - design"></a></h1>
+			<nav class="nav">
+				<ul class='nav__list'>
+					<li class="nav__list-item "><a href="/" >Главная</a></li>
+					<li class="nav__list-item "><a href="/about.html" >О нас</a></li>
+					<li class="nav__list-item "><a href="/directions.html" >Направления</a></li>
+					<li class="nav__list-item "><a href="/works.html" >Примеры работ</a></li>
+					<li class="nav__list-item nav__list-item_active"><a href="/contacts.html" >Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+<section class="l-block l-block_content">
+	<div class="content content_middle">
+		<div class="l-wrapper">
+			<h2>Контакты:</h2>
+			<section class="contacts">
+				<form action="/php/send.php" method="post" id="feedback" class="feedback">
+					<fieldset>
+						<div class="feedback__title">Обратная связь:</div>
+						<div class="form-row">
+							<label for="inp01">Ваше имя:<i class="imp-red">*</i></label>
+							<input type="text" name="name" id="inp01">
+						</div>
+						<div class="form-row">
+							<label for="inp02">Телефон:<i class="imp-red">*</i></label>
+							<input type="text" name="phone" id="inp02">
+						</div>
+						<div class="form-row">
+							<label for="inp03">Электронная почта:<i class="imp-red">*</i></label>
+							<input type="text" name="email" id="inp03">
+						</div>
+						<div class="form-row">
+							<label for="inp04">Сообщение:<i class="imp-red">*</i></label>
+							<textarea name="message" id="inp04"></textarea>
+						</div>
+						<div class="form-btn-holder">
+							<div class="btn">
+								Отправить заявку
+								<input type="submit" value="Отправить заявку">
+							</div>
+						</div>
+					</fieldset>
+				</form>
+				<section class="contacts__info">
+					<dl class="contacts__dl">
+						<dt>Адрес:</dt>
+							<dd>г.Харьков, пр. Ленина 1</dd>
+						<dt>График работы:</dt>
+							<dd>с 9:00 по 18:00</dd>
+					</dl>
+					<div class="phone">
+						<div class="phone__number">0 800 000 000</div>
+						<div class="phone__time">с 9:00 по 20:00 (Сб с 9:00 по 16:00)</div>
+					</div>
+				</section>
+			</section>
+			<section class="socials">
+				<div class="socials__text"> Задавайте<br/>
+интересующие вас вопросы<br/>
+в наших группах
+</div>
+				<ul class="socials__list">
+					<li class="socials__item">
+						<a href="#">
+							<span class="socials__ico"><img src="img/social1.png"></span>
+							<span class="socials__name">Вконтакте</span>
+						</a>
+					</li>
+					<li class="socials__item">
+						<a href="#">
+							<span class="socials__ico"><img src="img/social2.png"></span>
+							<span class="socials__name">Facebook</span>
+						</a>
+					</li>
+					<li class="socials__item">
+						<a href="#">
+							<span class="socials__ico"><img src="img/social3.png"></span>
+							<span class="socials__name">Google+</span>
+						</a>
+					</li>
+					<li class="socials__item">
+						<a href="#">
+							<span class="socials__ico"><img src="img/social4.png"></span>
+							<span class="socials__name">Twitter
+</span>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+</section>
+<footer class="l-block">
+	<div class="footer">
+		<div class="l-wrapper">
+			<strong class="footer__copyrights">&copy; 2013-2014 Все права защищены.</strong>
+			<strong class="footer__contacts">пр. Ленина 1, тел.: 0-800-000-000</strong>
+		</div>
+	</div>
+</footer>
+	<script src="/js/libs/jquery-2.0.3.min.js"></script>
+<script src="/js/main.min.js"></script>
+</body>
+</html>

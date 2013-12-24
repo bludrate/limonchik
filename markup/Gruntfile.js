@@ -41,18 +41,23 @@ module.exports = function(grunt) {
         }
       }
     },
+    open: {
+      server: {
+        path: "http://localhost:9000"
+      }
+    },
     includereplace: {
       build: {
         options: {
           prefix: '@@',
           suffix: '',
           globals: {
-            script_path: "js/main.js",
-            styles_path: "css/styles.css"
+            script_path: "/js/main.js",
+            styles_path: "/css/styles.css"
           },
         },
         files: [
-          {src: "*.html", dest:"dev/", expand: true, cwd: "dev/pages/"}
+          {src: "**/*.html", dest:"dev/", expand: true, cwd: "dev/pages/"}
         ]
       },
       release: {
@@ -60,8 +65,8 @@ module.exports = function(grunt) {
           prefix: '@@',
           suffix: '',
           globals: {
-            script_path: "js/main.min.js",
-            styles_path: "css/styles.min.css",
+            script_path: "/js/main.min.js",
+            styles_path: "/css/styles.min.css",
           },
         },
         files: [
@@ -102,7 +107,7 @@ module.exports = function(grunt) {
         }
       },
       html: {
-        files: ["dev/html_blocks/*.html","dev/pages/*.html"],
+        files: ["dev/html_blocks/**/*.html","dev/pages/**/*.html"],
         tasks: ['includereplace:build'],
         options: {
           spawn: false
@@ -157,11 +162,18 @@ module.exports = function(grunt) {
          cwd: "dev/js/libs/",
          src: ["**"],
          dest: "prod/js/libs/"
+      },
+      php: {
+        expand: true,
+        cwd: "dev/php/",
+        src: ["**"],
+        dest: "prod/php/"
       }
     }
   });
 
   grunt.loadNpmTasks('grunt-include-replace');
+  grunt.loadNpmTasks('grunt-open');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -175,5 +187,5 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', ['stylus',"autoprefixer","includereplace:build","concat"]);
   grunt.registerTask('release', ["clean:release","includereplace:release","cssmin", "uglify"/*,"htmlmin"*/,"copy"]);
-  grunt.registerTask('default', ['connect','watch']);
+  grunt.registerTask('default', ['connect',"open:server",'watch']);
 };

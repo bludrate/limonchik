@@ -3,24 +3,24 @@
 		<div class="l-wrapper">
 			<h2>Контакты:</h2>
 			<section class="contacts">
-				<form action="#" class="feedback">
+				<form action="/php/send.php" method="post" id="feedback" class="feedback">
 					<fieldset>
 						<div class="feedback__title">Обратная связь:</div>
 						<div class="form-row">
 							<label for="inp01">Ваше имя:<i class="imp-red">*</i></label>
-							<input type="text" id="inp01">
+							<input type="text" name="name" id="inp01">
 						</div>
 						<div class="form-row">
 							<label for="inp02">Телефон:<i class="imp-red">*</i></label>
-							<input type="text" id="inp02">
+							<input type="text" name="phone" id="inp02">
 						</div>
 						<div class="form-row">
 							<label for="inp03">Электронная почта:<i class="imp-red">*</i></label>
-							<input type="text" id="inp03">
+							<input type="text" name="email" id="inp03">
 						</div>
 						<div class="form-row">
 							<label for="inp04">Сообщение:<i class="imp-red">*</i></label>
-							<textarea id="inp04"></textarea>
+							<textarea name="message" id="inp04"></textarea>
 						</div>
 						<div class="form-btn-holder">
 							<div class="btn">
